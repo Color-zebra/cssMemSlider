@@ -31,6 +31,7 @@ body {
 	height: 65vh;
 	width: 25%;
 	overflow: hidden;
+	transition: all .6s ease;
 }
 .mem img{
 	width: 100%;
@@ -70,4 +71,20 @@ body {
 input {
 	position: absolute;
 	visibility: hidden;
+}
+
+#r1:checked ~ .first {
+	margin: 0 0 0 0;
+}
+
+#r2:checked ~ .first {
+	margin: 0 0 0 -25%;
+}
+
+#r3:checked ~ .first {
+	margin: 0 0 0 -50%;
+}
+
+#r4:checked ~ .first {
+	margin: 0 0 0 -75%;
 }
