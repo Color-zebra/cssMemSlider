@@ -178,9 +178,9 @@ label:hover > .navigation__item-picture{
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 767.7px) {
 	.wrapper_image {
-		height: 60vh;
+		height: 46vh;
 	}
 	.wrapper_text {
 		order: 15;
@@ -190,7 +190,7 @@ label:hover > .navigation__item-picture{
 		font-size: 3rem;
 	}
 	.text__item {
-		height: 18vh;
+		height: 30vh;
 	}
 	label {
 		flex: 1 1 25%;
